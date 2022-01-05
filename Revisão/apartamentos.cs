@@ -8,8 +8,9 @@ class Program
     {
         Apto x = new Apto();
         x.SetNumAndares(3);
-        x.SetNumAptosAndar(3);
-        Console.WriteLine(x.GetNumeros());
+        x.SetNumAptosAndar(2);
+        int[] w = x.GetNumeros();
+        foreach(int i in w) Console.WriteLine(i);
 
     }
 }
