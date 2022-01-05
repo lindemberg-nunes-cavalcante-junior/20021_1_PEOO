@@ -2,7 +2,7 @@ using System;
 
 class program{
   public static void Main(){
-    Console.WriteLine("infrome o umero de paises");
+    Console.WriteLine("informe o numero de paises");
     int k = int.Parse(Console.ReadLine());
     Pais[] vetor = new Pais[k];
     for(int i = 0; i < k; i++){
@@ -32,8 +32,8 @@ class Pais{
     if(população > 0) this.população = população;
     if(area > 0) this.area = area;
   }
-  public  override ToString(){
-    return Console.WriteLine($"Nome: {nome} Habitantes: {população} Area: {area}");
+  public  override string ToString(){
+    return $"Nome: {nome} Habitantes: {população} Area: {area}";
   }
   
 }
