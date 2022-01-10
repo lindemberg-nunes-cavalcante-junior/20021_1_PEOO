@@ -64,7 +64,7 @@ namespace Aulão_de_CSHARP
             if(auxiliar <= prods.Length)
             {
                 a = Console.ReadLine();
-                prods[auxiliar] = p = new Produto(int.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()), a); ;
+                prods[auxiliar] = p;
                 auxiliar++;
             }
         }
